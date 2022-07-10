@@ -1,0 +1,4 @@
+/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles/libft.dir
+/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles/minishell.dir
+/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles/edit_cache.dir
+/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles/rebuild_cache.dir
