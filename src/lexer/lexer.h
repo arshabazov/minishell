@@ -27,6 +27,7 @@ typedef enum s_token_type
 	SINGLE_QUOTE = '\'',
 	DOUBLE_QUOTE = '"',
 	ENV_VAR = '$',
+	EXIT_STATUS = '?'
 	REDIRECT_OUT = '>',
 	REDIRECT_IN = '<',
 	REDIRECT_APPEND = '+',
@@ -34,7 +35,7 @@ typedef enum s_token_type
 	PIPE = '|',
 	// Bonus
 	IF_AND = '&',
-	IF_OR = '?',
+	IF_OR = '_',
 	OPEN_PARAN = '(',
 	CLOSE_PARAN = ')'
 }	t_token_type;
@@ -68,6 +69,7 @@ int		get_redirect_token(char **str);
 int		get_quote_tk(char **str, char quote_type);
 int		get_word_token(char **str);
 int		get_space_token(char **str);
+int		get_dollar_token(char **str);
 
 // For TESTING purposes only (TO DELETE)
 void	print_list(t_sl_list *token_ls);

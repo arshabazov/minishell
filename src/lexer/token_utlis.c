@@ -19,19 +19,29 @@ int	get_space_token(char **str)
 	return (WHITE_SPACE);
 }
 
-int	get_word_token(char **str)
+int	get_dollar_token(char **str)
 {
-	int	token;
-
-	token = WORD;
-	if (**str == '$')
-	{
-		token = ENV_VAR;
-		(*str)++;
-	}
+	if (*(*str + 1) == '?')
+		return (EXIT_STATUS);
+	(*str)++;
 	while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
 		(*str)++;
-	return (token);
+	return (ENV_VAR);
+}
+
+int	get_word_token(char **str)
+{
+//	int	token;
+//
+//	token = WORD;
+//	if (**str == '$')
+//	{
+//		token = ENV_VAR;
+//		(*str)++;
+//	}
+	while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
+		(*str)++;
+	return (WORD);
 }
 
 int	get_quote_tk(char **str, char quote_type)

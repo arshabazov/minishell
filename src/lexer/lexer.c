@@ -56,6 +56,8 @@ static int	get_token_key(char **line, char **tk_start, char **tk_end)
 		token = get_space_token(&str);
 	else if (*str == '\'' || *str == '"')
 		token = get_quote_tk(&str, *str);
+	else if (*str == '$')
+		token = get_dollar_token(&str);
 	else
 		token = get_word_token(&str);
 	if (tk_end)
