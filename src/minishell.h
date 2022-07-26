@@ -26,7 +26,7 @@ typedef struct s_token t_token;
 
 typedef struct s_sl_list
 {
-	void	*key;
+	void*	key;
 	void	*value;
 	struct s_sl_list	*next;
 }	t_sl_list;

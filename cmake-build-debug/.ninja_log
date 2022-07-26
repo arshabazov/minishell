@@ -1,7 +1,7 @@
 # ninja log v5
 2	108	1656152781000000000	CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o	2566eb04e2a13dfa
 778	848	1655905490000000000	CMakeFiles/libft.dir/libft/ft_isalpha.c.o	41ba751cbc1d4e44
-0	72	1657630675000000000	build.ninja	b095c072e9a4d066
+0	72	1657307273000000000	build.ninja	b095c072e9a4d066
 980	1030	1655905491000000000	CMakeFiles/libft.dir/libft/ft_strdup.c.o	9b44035ef31a1717
 834	892	1655905490000000000	CMakeFiles/libft.dir/libft/ft_lstdelone.c.o	e8cceba9d0491947
 781	843	1655905490000000000	CMakeFiles/libft.dir/libft/ft_lstadd_back.c.o	e44e235613b570d8

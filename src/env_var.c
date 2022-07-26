@@ -31,7 +31,7 @@ static void print_env_list(t_sl_list *env_var_list)
 	}
 	while (env_var_list)
 	{
-		printf("%s=%s\n", (char *)env_var_list->key, (char *)env_var_list->value);
+		printf("%s%s\n", (char *)env_var_list->key, (char *)env_var_list->value);
 		env_var_list = env_var_list->next;
 	}
 }
@@ -54,7 +54,7 @@ t_sl_list	*get_env_var(char *env[])
 		if (!key || !value)
 			ft_puterror("Failed to allocate memory in *get_env_var(char *env[]) function");
 		ft_strlcpy(key, env[i], size[0] + 1);
-		ft_strlcpy(value, env[i] + size[0] + 1, size[1] + 1);
+		ft_strlcpy(value, env[i] + size[0], size[1] + 1);
 		lst_append_node(&env_var_list, (void *)key, (void *)value);
 		i++;
 	}
