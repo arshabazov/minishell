@@ -46,10 +46,23 @@ add_library(libft STATIC
         libft/ft_substr.c
         libft/ft_strtrim.c
         libft/ft_tolower.c
-        libft/ft_toupper.c src/parser/parser.c src/parser/parser.h)
+        libft/ft_toupper.c)
 
 add_executable(minishell
-        src/main.c src/minishell.h src/lexer/lexer.c src/lexer/lst_token_ops.c src/lexer/lexer.h src/ft_puterror.c src/lexer/print_list.c src/lexer/token_utlis.c src/env_var.c src/list_ops.c)
+        src/main.c
+        src/minishell.h
+        src/lexer/lexer.c
+        src/lexer/lexer.h
+        src/utils/ft_puterror.c
+        src/lexer/print_list.c
+        src/lexer/token_utlis.c
+        src/env_var/env_var.c
+        src/utils/list_ops.c
+        src/parser/parser.c
+        src/parser/parser.h
+        src/parser/env_var_expansion.c
+        src/utils/ft_substr_len.c
+        src/parser/db_quotes_expansion.c src/parser/join_tokens.c src/lexer/token_value_utils.c src/parser/exit_status.c src/parser/redirect_processing.c src/parser/cmd_list_handler.c src/parser/token_list_expansion.c src/parser/token_list_eval.c src/parser/strip_spaces.c src/parser/is_redirect.c src/lexer/token_list_handler.c src/env_var/env_var_list_handler.c src/parser/str_chunk_handler.c src/parser/print_functions.c src/parser/cmd_processing.c src/parser/token_key_getter.c src/parser/clear_array.c)
 
 target_link_libraries(minishell libft)
 target_link_libraries(minishell readline)

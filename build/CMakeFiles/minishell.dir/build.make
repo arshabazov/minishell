@@ -97,38 +97,24 @@ CMakeFiles/minishell.dir/src/lexer/lexer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/lexer/lexer.c.s"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/lexer/lexer.c -o CMakeFiles/minishell.dir/src/lexer/lexer.c.s
 
-CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o: CMakeFiles/minishell.dir/flags.make
-CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o: ../src/lexer/lst_token_ops.c
-CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o -MF CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o.d -o CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/lst_token_ops.c
+CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o: ../src/utils/ft_puterror.c
+CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o -MF CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o.d -o CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c
 
-CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/lexer/lst_token_ops.c > CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.i
+CMakeFiles/minishell.dir/src/utils/ft_puterror.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/utils/ft_puterror.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c > CMakeFiles/minishell.dir/src/utils/ft_puterror.c.i
 
-CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/lexer/lst_token_ops.c -o CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.s
-
-CMakeFiles/minishell.dir/src/ft_puterror.c.o: CMakeFiles/minishell.dir/flags.make
-CMakeFiles/minishell.dir/src/ft_puterror.c.o: ../src/ft_puterror.c
-CMakeFiles/minishell.dir/src/ft_puterror.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minishell.dir/src/ft_puterror.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/ft_puterror.c.o -MF CMakeFiles/minishell.dir/src/ft_puterror.c.o.d -o CMakeFiles/minishell.dir/src/ft_puterror.c.o -c /Users/cdell/workspace/circle_4/minishell/src/ft_puterror.c
-
-CMakeFiles/minishell.dir/src/ft_puterror.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/ft_puterror.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/ft_puterror.c > CMakeFiles/minishell.dir/src/ft_puterror.c.i
-
-CMakeFiles/minishell.dir/src/ft_puterror.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/ft_puterror.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/ft_puterror.c -o CMakeFiles/minishell.dir/src/ft_puterror.c.s
+CMakeFiles/minishell.dir/src/utils/ft_puterror.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/utils/ft_puterror.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c -o CMakeFiles/minishell.dir/src/utils/ft_puterror.c.s
 
 CMakeFiles/minishell.dir/src/lexer/print_list.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/src/lexer/print_list.c.o: ../src/lexer/print_list.c
 CMakeFiles/minishell.dir/src/lexer/print_list.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minishell.dir/src/lexer/print_list.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/minishell.dir/src/lexer/print_list.c.o"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/lexer/print_list.c.o -MF CMakeFiles/minishell.dir/src/lexer/print_list.c.o.d -o CMakeFiles/minishell.dir/src/lexer/print_list.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/print_list.c
 
 CMakeFiles/minishell.dir/src/lexer/print_list.c.i: cmake_force
@@ -142,7 +128,7 @@ CMakeFiles/minishell.dir/src/lexer/print_list.c.s: cmake_force
 CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o: ../src/lexer/token_utlis.c
 CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o -MF CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o.d -o CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_utlis.c
 
 CMakeFiles/minishell.dir/src/lexer/token_utlis.c.i: cmake_force
@@ -153,28 +139,378 @@ CMakeFiles/minishell.dir/src/lexer/token_utlis.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/lexer/token_utlis.c.s"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/lexer/token_utlis.c -o CMakeFiles/minishell.dir/src/lexer/token_utlis.c.s
 
+CMakeFiles/minishell.dir/src/env_var/env_var.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/env_var/env_var.c.o: ../src/env_var/env_var.c
+CMakeFiles/minishell.dir/src/env_var/env_var.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/minishell.dir/src/env_var/env_var.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/env_var/env_var.c.o -MF CMakeFiles/minishell.dir/src/env_var/env_var.c.o.d -o CMakeFiles/minishell.dir/src/env_var/env_var.c.o -c /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var.c
+
+CMakeFiles/minishell.dir/src/env_var/env_var.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/env_var/env_var.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var.c > CMakeFiles/minishell.dir/src/env_var/env_var.c.i
+
+CMakeFiles/minishell.dir/src/env_var/env_var.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/env_var/env_var.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var.c -o CMakeFiles/minishell.dir/src/env_var/env_var.c.s
+
+CMakeFiles/minishell.dir/src/utils/list_ops.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/utils/list_ops.c.o: ../src/utils/list_ops.c
+CMakeFiles/minishell.dir/src/utils/list_ops.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/minishell.dir/src/utils/list_ops.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/utils/list_ops.c.o -MF CMakeFiles/minishell.dir/src/utils/list_ops.c.o.d -o CMakeFiles/minishell.dir/src/utils/list_ops.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c
+
+CMakeFiles/minishell.dir/src/utils/list_ops.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/utils/list_ops.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c > CMakeFiles/minishell.dir/src/utils/list_ops.c.i
+
+CMakeFiles/minishell.dir/src/utils/list_ops.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/utils/list_ops.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c -o CMakeFiles/minishell.dir/src/utils/list_ops.c.s
+
+CMakeFiles/minishell.dir/src/parser/parser.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/parser.c.o: ../src/parser/parser.c
+CMakeFiles/minishell.dir/src/parser/parser.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/minishell.dir/src/parser/parser.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/parser.c.o -MF CMakeFiles/minishell.dir/src/parser/parser.c.o.d -o CMakeFiles/minishell.dir/src/parser/parser.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c
+
+CMakeFiles/minishell.dir/src/parser/parser.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/parser.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c > CMakeFiles/minishell.dir/src/parser/parser.c.i
+
+CMakeFiles/minishell.dir/src/parser/parser.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/parser.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c -o CMakeFiles/minishell.dir/src/parser/parser.c.s
+
+CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o: ../src/parser/env_var_expansion.c
+CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o -MF CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o.d -o CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/env_var_expansion.c
+
+CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/env_var_expansion.c > CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.i
+
+CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/env_var_expansion.c -o CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.s
+
+CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o: ../src/utils/ft_substr_len.c
+CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o -MF CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o.d -o CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c
+
+CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c > CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.i
+
+CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c -o CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.s
+
+CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o: ../src/parser/db_quotes_expansion.c
+CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o -MF CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o.d -o CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/db_quotes_expansion.c
+
+CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/db_quotes_expansion.c > CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.i
+
+CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/db_quotes_expansion.c -o CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.s
+
+CMakeFiles/minishell.dir/src/parser/join_tokens.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/join_tokens.c.o: ../src/parser/join_tokens.c
+CMakeFiles/minishell.dir/src/parser/join_tokens.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/minishell.dir/src/parser/join_tokens.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/join_tokens.c.o -MF CMakeFiles/minishell.dir/src/parser/join_tokens.c.o.d -o CMakeFiles/minishell.dir/src/parser/join_tokens.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/join_tokens.c
+
+CMakeFiles/minishell.dir/src/parser/join_tokens.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/join_tokens.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/join_tokens.c > CMakeFiles/minishell.dir/src/parser/join_tokens.c.i
+
+CMakeFiles/minishell.dir/src/parser/join_tokens.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/join_tokens.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/join_tokens.c -o CMakeFiles/minishell.dir/src/parser/join_tokens.c.s
+
+CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o: ../src/lexer/token_value_utils.c
+CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o -MF CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o.d -o CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_value_utils.c
+
+CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/lexer/token_value_utils.c > CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.i
+
+CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/lexer/token_value_utils.c -o CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.s
+
+CMakeFiles/minishell.dir/src/parser/exit_status.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/exit_status.c.o: ../src/parser/exit_status.c
+CMakeFiles/minishell.dir/src/parser/exit_status.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/minishell.dir/src/parser/exit_status.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/exit_status.c.o -MF CMakeFiles/minishell.dir/src/parser/exit_status.c.o.d -o CMakeFiles/minishell.dir/src/parser/exit_status.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/exit_status.c
+
+CMakeFiles/minishell.dir/src/parser/exit_status.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/exit_status.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/exit_status.c > CMakeFiles/minishell.dir/src/parser/exit_status.c.i
+
+CMakeFiles/minishell.dir/src/parser/exit_status.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/exit_status.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/exit_status.c -o CMakeFiles/minishell.dir/src/parser/exit_status.c.s
+
+CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o: ../src/parser/redirect_processing.c
+CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o -MF CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o.d -o CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/redirect_processing.c
+
+CMakeFiles/minishell.dir/src/parser/redirect_processing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/redirect_processing.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/redirect_processing.c > CMakeFiles/minishell.dir/src/parser/redirect_processing.c.i
+
+CMakeFiles/minishell.dir/src/parser/redirect_processing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/redirect_processing.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/redirect_processing.c -o CMakeFiles/minishell.dir/src/parser/redirect_processing.c.s
+
+CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o: ../src/parser/cmd_list_handler.c
+CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o -MF CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o.d -o CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_list_handler.c
+
+CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_list_handler.c > CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.i
+
+CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_list_handler.c -o CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.s
+
+CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o: ../src/parser/token_list_expansion.c
+CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o -MF CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o.d -o CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c
+
+CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c > CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.i
+
+CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c -o CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.s
+
+CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o: ../src/parser/token_list_eval.c
+CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o -MF CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o.d -o CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c
+
+CMakeFiles/minishell.dir/src/parser/token_list_eval.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/token_list_eval.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c > CMakeFiles/minishell.dir/src/parser/token_list_eval.c.i
+
+CMakeFiles/minishell.dir/src/parser/token_list_eval.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/token_list_eval.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c -o CMakeFiles/minishell.dir/src/parser/token_list_eval.c.s
+
+CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o: ../src/parser/strip_spaces.c
+CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o -MF CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o.d -o CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/strip_spaces.c
+
+CMakeFiles/minishell.dir/src/parser/strip_spaces.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/strip_spaces.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/strip_spaces.c > CMakeFiles/minishell.dir/src/parser/strip_spaces.c.i
+
+CMakeFiles/minishell.dir/src/parser/strip_spaces.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/strip_spaces.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/strip_spaces.c -o CMakeFiles/minishell.dir/src/parser/strip_spaces.c.s
+
+CMakeFiles/minishell.dir/src/parser/is_redirect.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/is_redirect.c.o: ../src/parser/is_redirect.c
+CMakeFiles/minishell.dir/src/parser/is_redirect.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/minishell.dir/src/parser/is_redirect.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/is_redirect.c.o -MF CMakeFiles/minishell.dir/src/parser/is_redirect.c.o.d -o CMakeFiles/minishell.dir/src/parser/is_redirect.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/is_redirect.c
+
+CMakeFiles/minishell.dir/src/parser/is_redirect.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/is_redirect.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/is_redirect.c > CMakeFiles/minishell.dir/src/parser/is_redirect.c.i
+
+CMakeFiles/minishell.dir/src/parser/is_redirect.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/is_redirect.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/is_redirect.c -o CMakeFiles/minishell.dir/src/parser/is_redirect.c.s
+
+CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o: ../src/lexer/token_list_handler.c
+CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o -MF CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o.d -o CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_list_handler.c
+
+CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/lexer/token_list_handler.c > CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.i
+
+CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/lexer/token_list_handler.c -o CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.s
+
+CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o: ../src/env_var/env_var_list_handler.c
+CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o -MF CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o.d -o CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var_list_handler.c
+
+CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var_list_handler.c > CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.i
+
+CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var_list_handler.c -o CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.s
+
+CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o: ../src/parser/str_chunk_handler.c
+CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o -MF CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o.d -o CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/str_chunk_handler.c
+
+CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/str_chunk_handler.c > CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.i
+
+CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/str_chunk_handler.c -o CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.s
+
+CMakeFiles/minishell.dir/src/parser/print_functions.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/print_functions.c.o: ../src/parser/print_functions.c
+CMakeFiles/minishell.dir/src/parser/print_functions.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/minishell.dir/src/parser/print_functions.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/print_functions.c.o -MF CMakeFiles/minishell.dir/src/parser/print_functions.c.o.d -o CMakeFiles/minishell.dir/src/parser/print_functions.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/print_functions.c
+
+CMakeFiles/minishell.dir/src/parser/print_functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/print_functions.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/print_functions.c > CMakeFiles/minishell.dir/src/parser/print_functions.c.i
+
+CMakeFiles/minishell.dir/src/parser/print_functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/print_functions.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/print_functions.c -o CMakeFiles/minishell.dir/src/parser/print_functions.c.s
+
+CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o: ../src/parser/cmd_processing.c
+CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o -MF CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o.d -o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c
+
+CMakeFiles/minishell.dir/src/parser/cmd_processing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/cmd_processing.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c > CMakeFiles/minishell.dir/src/parser/cmd_processing.c.i
+
+CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c -o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s
+
+CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: ../src/parser/toke_key_getter.c
+CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o -MF CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o.d -o CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c
+
+CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c > CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i
+
+CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c -o CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s
+
+CMakeFiles/minishell.dir/src/parser/clear_array.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/clear_array.c.o: ../src/parser/clear_array.c
+CMakeFiles/minishell.dir/src/parser/clear_array.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/minishell.dir/src/parser/clear_array.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/clear_array.c.o -MF CMakeFiles/minishell.dir/src/parser/clear_array.c.o.d -o CMakeFiles/minishell.dir/src/parser/clear_array.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c
+
+CMakeFiles/minishell.dir/src/parser/clear_array.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/clear_array.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c > CMakeFiles/minishell.dir/src/parser/clear_array.c.i
+
+CMakeFiles/minishell.dir/src/parser/clear_array.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/clear_array.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c -o CMakeFiles/minishell.dir/src/parser/clear_array.c.s
+
 # Object files for target minishell
 minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/src/main.c.o" \
 "CMakeFiles/minishell.dir/src/lexer/lexer.c.o" \
-"CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o" \
-"CMakeFiles/minishell.dir/src/ft_puterror.c.o" \
+"CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o" \
 "CMakeFiles/minishell.dir/src/lexer/print_list.c.o" \
-"CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o"
+"CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o" \
+"CMakeFiles/minishell.dir/src/env_var/env_var.c.o" \
+"CMakeFiles/minishell.dir/src/utils/list_ops.c.o" \
+"CMakeFiles/minishell.dir/src/parser/parser.c.o" \
+"CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o" \
+"CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o" \
+"CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o" \
+"CMakeFiles/minishell.dir/src/parser/join_tokens.c.o" \
+"CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o" \
+"CMakeFiles/minishell.dir/src/parser/exit_status.c.o" \
+"CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o" \
+"CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o" \
+"CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o" \
+"CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o" \
+"CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o" \
+"CMakeFiles/minishell.dir/src/parser/is_redirect.c.o" \
+"CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o" \
+"CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o" \
+"CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o" \
+"CMakeFiles/minishell.dir/src/parser/print_functions.c.o" \
+"CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o" \
+"CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o" \
+"CMakeFiles/minishell.dir/src/parser/clear_array.c.o"
 
 # External object files for target minishell
 minishell_EXTERNAL_OBJECTS =
 
 minishell: CMakeFiles/minishell.dir/src/main.c.o
 minishell: CMakeFiles/minishell.dir/src/lexer/lexer.c.o
-minishell: CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o
-minishell: CMakeFiles/minishell.dir/src/ft_puterror.c.o
+minishell: CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o
 minishell: CMakeFiles/minishell.dir/src/lexer/print_list.c.o
 minishell: CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o
+minishell: CMakeFiles/minishell.dir/src/env_var/env_var.c.o
+minishell: CMakeFiles/minishell.dir/src/utils/list_ops.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/parser.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o
+minishell: CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/join_tokens.c.o
+minishell: CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/exit_status.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/is_redirect.c.o
+minishell: CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o
+minishell: CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/print_functions.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/clear_array.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: liblibft.a
 minishell: CMakeFiles/minishell.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable minishell"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking C executable minishell"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minishell.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

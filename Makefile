@@ -4,10 +4,38 @@ LIBFT_DIR	=	libft/
 
 LIBFT_A		=	${LIBFT_DIR}libft.a
 
-SRCS	=	src/main.c src/ft_puterror.c\
-			src/lexer/lexer.c src/lexer/lst_token_ops.c\
-			src/lexer/print_list.c	src/lexer/token_utlis.c\
-			src/list_ops.c	src/env_var.c
+SRCS	=	src/main.c\
+			\
+			src/utils/ft_puterror.c\
+			src/utils/list_ops.c\
+			src/utils/ft_substr_len.c\
+			src/lexer/token_list_handler.c\
+			\
+			src/env_var/env_var.c\
+			src/env_var/env_var_list_handler.c\
+			\
+			src/lexer/lexer.c\
+			src/lexer/print_list.c\
+			src/lexer/token_utlis.c\
+			src/lexer/token_value_utils.c\
+			\
+			src/parser/parser.c\
+			src/parser/env_var_expansion.c\
+			src/parser/db_quotes_expansion.c\
+			src/parser/join_tokens.c\
+			src/parser/exit_status.c\
+			src/parser/token_list_eval.c\
+            src/parser/token_list_expansion.c\
+            src/parser/strip_spaces.c\
+            src/parser/is_redirect.c\
+			src/parser/redirect_processing.c\
+			src/parser/cmd_list_handler.c\
+			src/parser/str_chunk_handler.c\
+			src/parser/cmd_processing.c\
+			src/parser/clear_array.c\
+			src/parser/token_key_getter.c\
+			\
+			src/parser/print_functions.c
 
 HEADER	=	src/minishell.h
 

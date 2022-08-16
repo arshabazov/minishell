@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "libft::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-libft-Debug-79351360320e475d2a53.json",
+					"jsonFile" : "target-libft-Debug-2bda6358a198ce52cc68.json",
 					"name" : "libft",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "minishell::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-minishell-Debug-3a487a25e0a5ab910405.json",
+					"jsonFile" : "target-minishell-Debug-e67f14f0ef962d7ba32f.json",
 					"name" : "minishell",
 					"projectIndex" : 0
 				}

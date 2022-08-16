@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   token_utlis.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cdell <cdell@student.42.fr>                +#+  +:+       +#+        */
+/*   By: Abdu-Rashid <Abdu-Rashid@student.42.fr>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/28 17:26:51 by cdell             #+#    #+#             */
-/*   Updated: 2022/06/28 17:26:54 by cdell            ###   ########.fr       */
+/*   Updated: 2022/07/30 18:54:36 by Abdu-Rashid      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,26 +19,33 @@ int	get_space_token(char **str)
 	return (WHITE_SPACE);
 }
 
-int	get_dollar_token(char **str)
-{
-	if (*(*str + 1) == '?')
-		return (EXIT_STATUS);
-	(*str)++;
-	while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
-		(*str)++;
-	return (ENV_VAR);
-}
+ int	get_dollar_token(char **str)
+ {
+ 	int	token;
+	
+ 	(*str)++;
+ 	if (**str == '?')
+ 	{
+ 		(*str)++;
+ 		token = EXIT_STATUS;
+ 	}
+ 	else if (**str == '_' || ft_isalpha(**str))
+ 	{
+ 		while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
+ 			(*str)++;
+ 		token = ENV_VAR;
+ 	}
+ 	else
+ 	{
+ 		while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
+ 			(*str)++;
+ 		token = WORD;
+ 	}
+ 	return (token);
+ }
 
 int	get_word_token(char **str)
 {
-//	int	token;
-//
-//	token = WORD;
-//	if (**str == '$')
-//	{
-//		token = ENV_VAR;
-//		(*str)++;
-//	}
 	while (**str && !ft_strchr(WHITE_SPACE_CHARS, **str) && !ft_strchr(TOKENS, **str))
 		(*str)++;
 	return (WORD);

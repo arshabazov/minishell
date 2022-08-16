@@ -1174,29 +1174,53 @@ libft/ft_toupper.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/libft/ft_toupper.c.s
 .PHONY : libft/ft_toupper.c.s
 
-src/ft_puterror.o: src/ft_puterror.c.o
-.PHONY : src/ft_puterror.o
+src/env_var/env_var.o: src/env_var/env_var.c.o
+.PHONY : src/env_var/env_var.o
 
 # target to build an object file
-src/ft_puterror.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/ft_puterror.c.o
-.PHONY : src/ft_puterror.c.o
+src/env_var/env_var.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var.c.o
+.PHONY : src/env_var/env_var.c.o
 
-src/ft_puterror.i: src/ft_puterror.c.i
-.PHONY : src/ft_puterror.i
+src/env_var/env_var.i: src/env_var/env_var.c.i
+.PHONY : src/env_var/env_var.i
 
 # target to preprocess a source file
-src/ft_puterror.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/ft_puterror.c.i
-.PHONY : src/ft_puterror.c.i
+src/env_var/env_var.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var.c.i
+.PHONY : src/env_var/env_var.c.i
 
-src/ft_puterror.s: src/ft_puterror.c.s
-.PHONY : src/ft_puterror.s
+src/env_var/env_var.s: src/env_var/env_var.c.s
+.PHONY : src/env_var/env_var.s
 
 # target to generate assembly for a file
-src/ft_puterror.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/ft_puterror.c.s
-.PHONY : src/ft_puterror.c.s
+src/env_var/env_var.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var.c.s
+.PHONY : src/env_var/env_var.c.s
+
+src/env_var/env_var_list_handler.o: src/env_var/env_var_list_handler.c.o
+.PHONY : src/env_var/env_var_list_handler.o
+
+# target to build an object file
+src/env_var/env_var_list_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o
+.PHONY : src/env_var/env_var_list_handler.c.o
+
+src/env_var/env_var_list_handler.i: src/env_var/env_var_list_handler.c.i
+.PHONY : src/env_var/env_var_list_handler.i
+
+# target to preprocess a source file
+src/env_var/env_var_list_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.i
+.PHONY : src/env_var/env_var_list_handler.c.i
+
+src/env_var/env_var_list_handler.s: src/env_var/env_var_list_handler.c.s
+.PHONY : src/env_var/env_var_list_handler.s
+
+# target to generate assembly for a file
+src/env_var/env_var_list_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.s
+.PHONY : src/env_var/env_var_list_handler.c.s
 
 src/lexer/lexer.o: src/lexer/lexer.c.o
 .PHONY : src/lexer/lexer.o
@@ -1222,30 +1246,6 @@ src/lexer/lexer.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/lexer.c.s
 .PHONY : src/lexer/lexer.c.s
 
-src/lexer/lst_token_ops.o: src/lexer/lst_token_ops.c.o
-.PHONY : src/lexer/lst_token_ops.o
-
-# target to build an object file
-src/lexer/lst_token_ops.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o
-.PHONY : src/lexer/lst_token_ops.c.o
-
-src/lexer/lst_token_ops.i: src/lexer/lst_token_ops.c.i
-.PHONY : src/lexer/lst_token_ops.i
-
-# target to preprocess a source file
-src/lexer/lst_token_ops.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.i
-.PHONY : src/lexer/lst_token_ops.c.i
-
-src/lexer/lst_token_ops.s: src/lexer/lst_token_ops.c.s
-.PHONY : src/lexer/lst_token_ops.s
-
-# target to generate assembly for a file
-src/lexer/lst_token_ops.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.s
-.PHONY : src/lexer/lst_token_ops.c.s
-
 src/lexer/print_list.o: src/lexer/print_list.c.o
 .PHONY : src/lexer/print_list.o
 
@@ -1269,6 +1269,30 @@ src/lexer/print_list.s: src/lexer/print_list.c.s
 src/lexer/print_list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/print_list.c.s
 .PHONY : src/lexer/print_list.c.s
+
+src/lexer/token_list_handler.o: src/lexer/token_list_handler.c.o
+.PHONY : src/lexer/token_list_handler.o
+
+# target to build an object file
+src/lexer/token_list_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o
+.PHONY : src/lexer/token_list_handler.c.o
+
+src/lexer/token_list_handler.i: src/lexer/token_list_handler.c.i
+.PHONY : src/lexer/token_list_handler.i
+
+# target to preprocess a source file
+src/lexer/token_list_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.i
+.PHONY : src/lexer/token_list_handler.c.i
+
+src/lexer/token_list_handler.s: src/lexer/token_list_handler.c.s
+.PHONY : src/lexer/token_list_handler.s
+
+# target to generate assembly for a file
+src/lexer/token_list_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.s
+.PHONY : src/lexer/token_list_handler.c.s
 
 src/lexer/token_utlis.o: src/lexer/token_utlis.c.o
 .PHONY : src/lexer/token_utlis.o
@@ -1294,6 +1318,30 @@ src/lexer/token_utlis.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_utlis.c.s
 .PHONY : src/lexer/token_utlis.c.s
 
+src/lexer/token_value_utils.o: src/lexer/token_value_utils.c.o
+.PHONY : src/lexer/token_value_utils.o
+
+# target to build an object file
+src/lexer/token_value_utils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o
+.PHONY : src/lexer/token_value_utils.c.o
+
+src/lexer/token_value_utils.i: src/lexer/token_value_utils.c.i
+.PHONY : src/lexer/token_value_utils.i
+
+# target to preprocess a source file
+src/lexer/token_value_utils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.i
+.PHONY : src/lexer/token_value_utils.c.i
+
+src/lexer/token_value_utils.s: src/lexer/token_value_utils.c.s
+.PHONY : src/lexer/token_value_utils.s
+
+# target to generate assembly for a file
+src/lexer/token_value_utils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.s
+.PHONY : src/lexer/token_value_utils.c.s
+
 src/main.o: src/main.c.o
 .PHONY : src/main.o
 
@@ -1318,12 +1366,204 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/parser/clear_array.o: src/parser/clear_array.c.o
+.PHONY : src/parser/clear_array.o
+
+# target to build an object file
+src/parser/clear_array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/clear_array.c.o
+.PHONY : src/parser/clear_array.c.o
+
+src/parser/clear_array.i: src/parser/clear_array.c.i
+.PHONY : src/parser/clear_array.i
+
+# target to preprocess a source file
+src/parser/clear_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/clear_array.c.i
+.PHONY : src/parser/clear_array.c.i
+
+src/parser/clear_array.s: src/parser/clear_array.c.s
+.PHONY : src/parser/clear_array.s
+
+# target to generate assembly for a file
+src/parser/clear_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/clear_array.c.s
+.PHONY : src/parser/clear_array.c.s
+
+src/parser/cmd_list_handler.o: src/parser/cmd_list_handler.c.o
+.PHONY : src/parser/cmd_list_handler.o
+
+# target to build an object file
+src/parser/cmd_list_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o
+.PHONY : src/parser/cmd_list_handler.c.o
+
+src/parser/cmd_list_handler.i: src/parser/cmd_list_handler.c.i
+.PHONY : src/parser/cmd_list_handler.i
+
+# target to preprocess a source file
+src/parser/cmd_list_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.i
+.PHONY : src/parser/cmd_list_handler.c.i
+
+src/parser/cmd_list_handler.s: src/parser/cmd_list_handler.c.s
+.PHONY : src/parser/cmd_list_handler.s
+
+# target to generate assembly for a file
+src/parser/cmd_list_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.s
+.PHONY : src/parser/cmd_list_handler.c.s
+
+src/parser/cmd_processing.o: src/parser/cmd_processing.c.o
+.PHONY : src/parser/cmd_processing.o
+
+# target to build an object file
+src/parser/cmd_processing.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o
+.PHONY : src/parser/cmd_processing.c.o
+
+src/parser/cmd_processing.i: src/parser/cmd_processing.c.i
+.PHONY : src/parser/cmd_processing.i
+
+# target to preprocess a source file
+src/parser/cmd_processing.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_processing.c.i
+.PHONY : src/parser/cmd_processing.c.i
+
+src/parser/cmd_processing.s: src/parser/cmd_processing.c.s
+.PHONY : src/parser/cmd_processing.s
+
+# target to generate assembly for a file
+src/parser/cmd_processing.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s
+.PHONY : src/parser/cmd_processing.c.s
+
+src/parser/db_quotes_expansion.o: src/parser/db_quotes_expansion.c.o
+.PHONY : src/parser/db_quotes_expansion.o
+
+# target to build an object file
+src/parser/db_quotes_expansion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o
+.PHONY : src/parser/db_quotes_expansion.c.o
+
+src/parser/db_quotes_expansion.i: src/parser/db_quotes_expansion.c.i
+.PHONY : src/parser/db_quotes_expansion.i
+
+# target to preprocess a source file
+src/parser/db_quotes_expansion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.i
+.PHONY : src/parser/db_quotes_expansion.c.i
+
+src/parser/db_quotes_expansion.s: src/parser/db_quotes_expansion.c.s
+.PHONY : src/parser/db_quotes_expansion.s
+
+# target to generate assembly for a file
+src/parser/db_quotes_expansion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.s
+.PHONY : src/parser/db_quotes_expansion.c.s
+
+src/parser/env_var_expansion.o: src/parser/env_var_expansion.c.o
+.PHONY : src/parser/env_var_expansion.o
+
+# target to build an object file
+src/parser/env_var_expansion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o
+.PHONY : src/parser/env_var_expansion.c.o
+
+src/parser/env_var_expansion.i: src/parser/env_var_expansion.c.i
+.PHONY : src/parser/env_var_expansion.i
+
+# target to preprocess a source file
+src/parser/env_var_expansion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.i
+.PHONY : src/parser/env_var_expansion.c.i
+
+src/parser/env_var_expansion.s: src/parser/env_var_expansion.c.s
+.PHONY : src/parser/env_var_expansion.s
+
+# target to generate assembly for a file
+src/parser/env_var_expansion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.s
+.PHONY : src/parser/env_var_expansion.c.s
+
+src/parser/exit_status.o: src/parser/exit_status.c.o
+.PHONY : src/parser/exit_status.o
+
+# target to build an object file
+src/parser/exit_status.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/exit_status.c.o
+.PHONY : src/parser/exit_status.c.o
+
+src/parser/exit_status.i: src/parser/exit_status.c.i
+.PHONY : src/parser/exit_status.i
+
+# target to preprocess a source file
+src/parser/exit_status.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/exit_status.c.i
+.PHONY : src/parser/exit_status.c.i
+
+src/parser/exit_status.s: src/parser/exit_status.c.s
+.PHONY : src/parser/exit_status.s
+
+# target to generate assembly for a file
+src/parser/exit_status.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/exit_status.c.s
+.PHONY : src/parser/exit_status.c.s
+
+src/parser/is_redirect.o: src/parser/is_redirect.c.o
+.PHONY : src/parser/is_redirect.o
+
+# target to build an object file
+src/parser/is_redirect.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/is_redirect.c.o
+.PHONY : src/parser/is_redirect.c.o
+
+src/parser/is_redirect.i: src/parser/is_redirect.c.i
+.PHONY : src/parser/is_redirect.i
+
+# target to preprocess a source file
+src/parser/is_redirect.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/is_redirect.c.i
+.PHONY : src/parser/is_redirect.c.i
+
+src/parser/is_redirect.s: src/parser/is_redirect.c.s
+.PHONY : src/parser/is_redirect.s
+
+# target to generate assembly for a file
+src/parser/is_redirect.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/is_redirect.c.s
+.PHONY : src/parser/is_redirect.c.s
+
+src/parser/join_tokens.o: src/parser/join_tokens.c.o
+.PHONY : src/parser/join_tokens.o
+
+# target to build an object file
+src/parser/join_tokens.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/join_tokens.c.o
+.PHONY : src/parser/join_tokens.c.o
+
+src/parser/join_tokens.i: src/parser/join_tokens.c.i
+.PHONY : src/parser/join_tokens.i
+
+# target to preprocess a source file
+src/parser/join_tokens.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/join_tokens.c.i
+.PHONY : src/parser/join_tokens.c.i
+
+src/parser/join_tokens.s: src/parser/join_tokens.c.s
+.PHONY : src/parser/join_tokens.s
+
+# target to generate assembly for a file
+src/parser/join_tokens.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/join_tokens.c.s
+.PHONY : src/parser/join_tokens.c.s
+
 src/parser/parser.o: src/parser/parser.c.o
 .PHONY : src/parser/parser.o
 
 # target to build an object file
 src/parser/parser.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/src/parser/parser.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/parser.c.o
 .PHONY : src/parser/parser.c.o
 
 src/parser/parser.i: src/parser/parser.c.i
@@ -1331,7 +1571,7 @@ src/parser/parser.i: src/parser/parser.c.i
 
 # target to preprocess a source file
 src/parser/parser.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/src/parser/parser.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/parser.c.i
 .PHONY : src/parser/parser.c.i
 
 src/parser/parser.s: src/parser/parser.c.s
@@ -1339,8 +1579,248 @@ src/parser/parser.s: src/parser/parser.c.s
 
 # target to generate assembly for a file
 src/parser/parser.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/libft.dir/build.make CMakeFiles/libft.dir/src/parser/parser.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/parser.c.s
 .PHONY : src/parser/parser.c.s
+
+src/parser/print_functions.o: src/parser/print_functions.c.o
+.PHONY : src/parser/print_functions.o
+
+# target to build an object file
+src/parser/print_functions.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/print_functions.c.o
+.PHONY : src/parser/print_functions.c.o
+
+src/parser/print_functions.i: src/parser/print_functions.c.i
+.PHONY : src/parser/print_functions.i
+
+# target to preprocess a source file
+src/parser/print_functions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/print_functions.c.i
+.PHONY : src/parser/print_functions.c.i
+
+src/parser/print_functions.s: src/parser/print_functions.c.s
+.PHONY : src/parser/print_functions.s
+
+# target to generate assembly for a file
+src/parser/print_functions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/print_functions.c.s
+.PHONY : src/parser/print_functions.c.s
+
+src/parser/redirect_processing.o: src/parser/redirect_processing.c.o
+.PHONY : src/parser/redirect_processing.o
+
+# target to build an object file
+src/parser/redirect_processing.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o
+.PHONY : src/parser/redirect_processing.c.o
+
+src/parser/redirect_processing.i: src/parser/redirect_processing.c.i
+.PHONY : src/parser/redirect_processing.i
+
+# target to preprocess a source file
+src/parser/redirect_processing.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/redirect_processing.c.i
+.PHONY : src/parser/redirect_processing.c.i
+
+src/parser/redirect_processing.s: src/parser/redirect_processing.c.s
+.PHONY : src/parser/redirect_processing.s
+
+# target to generate assembly for a file
+src/parser/redirect_processing.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/redirect_processing.c.s
+.PHONY : src/parser/redirect_processing.c.s
+
+src/parser/str_chunk_handler.o: src/parser/str_chunk_handler.c.o
+.PHONY : src/parser/str_chunk_handler.o
+
+# target to build an object file
+src/parser/str_chunk_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o
+.PHONY : src/parser/str_chunk_handler.c.o
+
+src/parser/str_chunk_handler.i: src/parser/str_chunk_handler.c.i
+.PHONY : src/parser/str_chunk_handler.i
+
+# target to preprocess a source file
+src/parser/str_chunk_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.i
+.PHONY : src/parser/str_chunk_handler.c.i
+
+src/parser/str_chunk_handler.s: src/parser/str_chunk_handler.c.s
+.PHONY : src/parser/str_chunk_handler.s
+
+# target to generate assembly for a file
+src/parser/str_chunk_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.s
+.PHONY : src/parser/str_chunk_handler.c.s
+
+src/parser/strip_spaces.o: src/parser/strip_spaces.c.o
+.PHONY : src/parser/strip_spaces.o
+
+# target to build an object file
+src/parser/strip_spaces.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o
+.PHONY : src/parser/strip_spaces.c.o
+
+src/parser/strip_spaces.i: src/parser/strip_spaces.c.i
+.PHONY : src/parser/strip_spaces.i
+
+# target to preprocess a source file
+src/parser/strip_spaces.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/strip_spaces.c.i
+.PHONY : src/parser/strip_spaces.c.i
+
+src/parser/strip_spaces.s: src/parser/strip_spaces.c.s
+.PHONY : src/parser/strip_spaces.s
+
+# target to generate assembly for a file
+src/parser/strip_spaces.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/strip_spaces.c.s
+.PHONY : src/parser/strip_spaces.c.s
+
+src/parser/toke_key_getter.o: src/parser/toke_key_getter.c.o
+.PHONY : src/parser/toke_key_getter.o
+
+# target to build an object file
+src/parser/toke_key_getter.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o
+.PHONY : src/parser/toke_key_getter.c.o
+
+src/parser/toke_key_getter.i: src/parser/toke_key_getter.c.i
+.PHONY : src/parser/toke_key_getter.i
+
+# target to preprocess a source file
+src/parser/toke_key_getter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i
+.PHONY : src/parser/toke_key_getter.c.i
+
+src/parser/toke_key_getter.s: src/parser/toke_key_getter.c.s
+.PHONY : src/parser/toke_key_getter.s
+
+# target to generate assembly for a file
+src/parser/toke_key_getter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s
+.PHONY : src/parser/toke_key_getter.c.s
+
+src/parser/token_list_eval.o: src/parser/token_list_eval.c.o
+.PHONY : src/parser/token_list_eval.o
+
+# target to build an object file
+src/parser/token_list_eval.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o
+.PHONY : src/parser/token_list_eval.c.o
+
+src/parser/token_list_eval.i: src/parser/token_list_eval.c.i
+.PHONY : src/parser/token_list_eval.i
+
+# target to preprocess a source file
+src/parser/token_list_eval.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_eval.c.i
+.PHONY : src/parser/token_list_eval.c.i
+
+src/parser/token_list_eval.s: src/parser/token_list_eval.c.s
+.PHONY : src/parser/token_list_eval.s
+
+# target to generate assembly for a file
+src/parser/token_list_eval.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_eval.c.s
+.PHONY : src/parser/token_list_eval.c.s
+
+src/parser/token_list_expansion.o: src/parser/token_list_expansion.c.o
+.PHONY : src/parser/token_list_expansion.o
+
+# target to build an object file
+src/parser/token_list_expansion.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o
+.PHONY : src/parser/token_list_expansion.c.o
+
+src/parser/token_list_expansion.i: src/parser/token_list_expansion.c.i
+.PHONY : src/parser/token_list_expansion.i
+
+# target to preprocess a source file
+src/parser/token_list_expansion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.i
+.PHONY : src/parser/token_list_expansion.c.i
+
+src/parser/token_list_expansion.s: src/parser/token_list_expansion.c.s
+.PHONY : src/parser/token_list_expansion.s
+
+# target to generate assembly for a file
+src/parser/token_list_expansion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.s
+.PHONY : src/parser/token_list_expansion.c.s
+
+src/utils/ft_puterror.o: src/utils/ft_puterror.c.o
+.PHONY : src/utils/ft_puterror.o
+
+# target to build an object file
+src/utils/ft_puterror.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o
+.PHONY : src/utils/ft_puterror.c.o
+
+src/utils/ft_puterror.i: src/utils/ft_puterror.c.i
+.PHONY : src/utils/ft_puterror.i
+
+# target to preprocess a source file
+src/utils/ft_puterror.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_puterror.c.i
+.PHONY : src/utils/ft_puterror.c.i
+
+src/utils/ft_puterror.s: src/utils/ft_puterror.c.s
+.PHONY : src/utils/ft_puterror.s
+
+# target to generate assembly for a file
+src/utils/ft_puterror.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_puterror.c.s
+.PHONY : src/utils/ft_puterror.c.s
+
+src/utils/ft_substr_len.o: src/utils/ft_substr_len.c.o
+.PHONY : src/utils/ft_substr_len.o
+
+# target to build an object file
+src/utils/ft_substr_len.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o
+.PHONY : src/utils/ft_substr_len.c.o
+
+src/utils/ft_substr_len.i: src/utils/ft_substr_len.c.i
+.PHONY : src/utils/ft_substr_len.i
+
+# target to preprocess a source file
+src/utils/ft_substr_len.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.i
+.PHONY : src/utils/ft_substr_len.c.i
+
+src/utils/ft_substr_len.s: src/utils/ft_substr_len.c.s
+.PHONY : src/utils/ft_substr_len.s
+
+# target to generate assembly for a file
+src/utils/ft_substr_len.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.s
+.PHONY : src/utils/ft_substr_len.c.s
+
+src/utils/list_ops.o: src/utils/list_ops.c.o
+.PHONY : src/utils/list_ops.o
+
+# target to build an object file
+src/utils/list_ops.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/list_ops.c.o
+.PHONY : src/utils/list_ops.c.o
+
+src/utils/list_ops.i: src/utils/list_ops.c.i
+.PHONY : src/utils/list_ops.i
+
+# target to preprocess a source file
+src/utils/list_ops.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/list_ops.c.i
+.PHONY : src/utils/list_ops.c.i
+
+src/utils/list_ops.s: src/utils/list_ops.c.s
+.PHONY : src/utils/list_ops.s
+
+# target to generate assembly for a file
+src/utils/list_ops.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/list_ops.c.s
+.PHONY : src/utils/list_ops.c.s
 
 # Help Target
 help:
@@ -1481,27 +1961,87 @@ help:
 	@echo "... libft/ft_toupper.o"
 	@echo "... libft/ft_toupper.i"
 	@echo "... libft/ft_toupper.s"
-	@echo "... src/ft_puterror.o"
-	@echo "... src/ft_puterror.i"
-	@echo "... src/ft_puterror.s"
+	@echo "... src/env_var/env_var.o"
+	@echo "... src/env_var/env_var.i"
+	@echo "... src/env_var/env_var.s"
+	@echo "... src/env_var/env_var_list_handler.o"
+	@echo "... src/env_var/env_var_list_handler.i"
+	@echo "... src/env_var/env_var_list_handler.s"
 	@echo "... src/lexer/lexer.o"
 	@echo "... src/lexer/lexer.i"
 	@echo "... src/lexer/lexer.s"
-	@echo "... src/lexer/lst_token_ops.o"
-	@echo "... src/lexer/lst_token_ops.i"
-	@echo "... src/lexer/lst_token_ops.s"
 	@echo "... src/lexer/print_list.o"
 	@echo "... src/lexer/print_list.i"
 	@echo "... src/lexer/print_list.s"
+	@echo "... src/lexer/token_list_handler.o"
+	@echo "... src/lexer/token_list_handler.i"
+	@echo "... src/lexer/token_list_handler.s"
 	@echo "... src/lexer/token_utlis.o"
 	@echo "... src/lexer/token_utlis.i"
 	@echo "... src/lexer/token_utlis.s"
+	@echo "... src/lexer/token_value_utils.o"
+	@echo "... src/lexer/token_value_utils.i"
+	@echo "... src/lexer/token_value_utils.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parser/clear_array.o"
+	@echo "... src/parser/clear_array.i"
+	@echo "... src/parser/clear_array.s"
+	@echo "... src/parser/cmd_list_handler.o"
+	@echo "... src/parser/cmd_list_handler.i"
+	@echo "... src/parser/cmd_list_handler.s"
+	@echo "... src/parser/cmd_processing.o"
+	@echo "... src/parser/cmd_processing.i"
+	@echo "... src/parser/cmd_processing.s"
+	@echo "... src/parser/db_quotes_expansion.o"
+	@echo "... src/parser/db_quotes_expansion.i"
+	@echo "... src/parser/db_quotes_expansion.s"
+	@echo "... src/parser/env_var_expansion.o"
+	@echo "... src/parser/env_var_expansion.i"
+	@echo "... src/parser/env_var_expansion.s"
+	@echo "... src/parser/exit_status.o"
+	@echo "... src/parser/exit_status.i"
+	@echo "... src/parser/exit_status.s"
+	@echo "... src/parser/is_redirect.o"
+	@echo "... src/parser/is_redirect.i"
+	@echo "... src/parser/is_redirect.s"
+	@echo "... src/parser/join_tokens.o"
+	@echo "... src/parser/join_tokens.i"
+	@echo "... src/parser/join_tokens.s"
 	@echo "... src/parser/parser.o"
 	@echo "... src/parser/parser.i"
 	@echo "... src/parser/parser.s"
+	@echo "... src/parser/print_functions.o"
+	@echo "... src/parser/print_functions.i"
+	@echo "... src/parser/print_functions.s"
+	@echo "... src/parser/redirect_processing.o"
+	@echo "... src/parser/redirect_processing.i"
+	@echo "... src/parser/redirect_processing.s"
+	@echo "... src/parser/str_chunk_handler.o"
+	@echo "... src/parser/str_chunk_handler.i"
+	@echo "... src/parser/str_chunk_handler.s"
+	@echo "... src/parser/strip_spaces.o"
+	@echo "... src/parser/strip_spaces.i"
+	@echo "... src/parser/strip_spaces.s"
+	@echo "... src/parser/toke_key_getter.o"
+	@echo "... src/parser/toke_key_getter.i"
+	@echo "... src/parser/toke_key_getter.s"
+	@echo "... src/parser/token_list_eval.o"
+	@echo "... src/parser/token_list_eval.i"
+	@echo "... src/parser/token_list_eval.s"
+	@echo "... src/parser/token_list_expansion.o"
+	@echo "... src/parser/token_list_expansion.i"
+	@echo "... src/parser/token_list_expansion.s"
+	@echo "... src/utils/ft_puterror.o"
+	@echo "... src/utils/ft_puterror.i"
+	@echo "... src/utils/ft_puterror.s"
+	@echo "... src/utils/ft_substr_len.o"
+	@echo "... src/utils/ft_substr_len.i"
+	@echo "... src/utils/ft_substr_len.s"
+	@echo "... src/utils/list_ops.o"
+	@echo "... src/utils/list_ops.i"
+	@echo "... src/utils/list_ops.s"
 .PHONY : help
 
 

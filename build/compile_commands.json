@@ -216,11 +216,6 @@
 },
 {
   "directory": "/Users/cdell/workspace/circle_4/minishell/build",
-  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/libft.dir/src/parser/parser.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c",
-  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/parser.c"
-},
-{
-  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
   "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/main.c.o -c /Users/cdell/workspace/circle_4/minishell/src/main.c",
   "file": "/Users/cdell/workspace/circle_4/minishell/src/main.c"
 },
@@ -231,13 +226,8 @@
 },
 {
   "directory": "/Users/cdell/workspace/circle_4/minishell/build",
-  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/lexer/lst_token_ops.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/lst_token_ops.c",
-  "file": "/Users/cdell/workspace/circle_4/minishell/src/lexer/lst_token_ops.c"
-},
-{
-  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
-  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/ft_puterror.c.o -c /Users/cdell/workspace/circle_4/minishell/src/ft_puterror.c",
-  "file": "/Users/cdell/workspace/circle_4/minishell/src/ft_puterror.c"
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c"
 },
 {
   "directory": "/Users/cdell/workspace/circle_4/minishell/build",
@@ -248,5 +238,115 @@
   "directory": "/Users/cdell/workspace/circle_4/minishell/build",
   "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_utlis.c",
   "file": "/Users/cdell/workspace/circle_4/minishell/src/lexer/token_utlis.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/env_var/env_var.c.o -c /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/env_var/env_var.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/utils/list_ops.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/parser.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/parser.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/env_var_expansion.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/env_var_expansion.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/db_quotes_expansion.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/db_quotes_expansion.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/join_tokens.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/join_tokens.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/join_tokens.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_value_utils.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/lexer/token_value_utils.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/exit_status.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/exit_status.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/exit_status.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/redirect_processing.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/redirect_processing.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_list_handler.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/cmd_list_handler.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/strip_spaces.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/strip_spaces.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/is_redirect.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/is_redirect.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/is_redirect.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/lexer/token_list_handler.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/lexer/token_list_handler.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/env_var/env_var_list_handler.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/env_var/env_var_list_handler.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/str_chunk_handler.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/str_chunk_handler.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/print_functions.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/print_functions.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/print_functions.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/clear_array.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c"
 }
 ]

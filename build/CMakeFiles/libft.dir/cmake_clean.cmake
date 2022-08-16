@@ -85,8 +85,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/libft.dir/libft/ft_tolower.c.o.d"
   "CMakeFiles/libft.dir/libft/ft_toupper.c.o"
   "CMakeFiles/libft.dir/libft/ft_toupper.c.o.d"
-  "CMakeFiles/libft.dir/src/parser/parser.c.o"
-  "CMakeFiles/libft.dir/src/parser/parser.c.o.d"
   "liblibft.a"
   "liblibft.pdb"
 )

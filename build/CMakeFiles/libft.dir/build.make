@@ -671,20 +671,6 @@ CMakeFiles/libft.dir/libft/ft_toupper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/libft/ft_toupper.c.s"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/libft/ft_toupper.c -o CMakeFiles/libft.dir/libft/ft_toupper.c.s
 
-CMakeFiles/libft.dir/src/parser/parser.c.o: CMakeFiles/libft.dir/flags.make
-CMakeFiles/libft.dir/src/parser/parser.c.o: ../src/parser/parser.c
-CMakeFiles/libft.dir/src/parser/parser.c.o: CMakeFiles/libft.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/libft.dir/src/parser/parser.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/libft.dir/src/parser/parser.c.o -MF CMakeFiles/libft.dir/src/parser/parser.c.o.d -o CMakeFiles/libft.dir/src/parser/parser.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c
-
-CMakeFiles/libft.dir/src/parser/parser.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/libft.dir/src/parser/parser.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c > CMakeFiles/libft.dir/src/parser/parser.c.i
-
-CMakeFiles/libft.dir/src/parser/parser.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/libft.dir/src/parser/parser.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/parser.c -o CMakeFiles/libft.dir/src/parser/parser.c.s
-
 # Object files for target libft
 libft_OBJECTS = \
 "CMakeFiles/libft.dir/libft/ft_atoi.c.o" \
@@ -729,8 +715,7 @@ libft_OBJECTS = \
 "CMakeFiles/libft.dir/libft/ft_substr.c.o" \
 "CMakeFiles/libft.dir/libft/ft_strtrim.c.o" \
 "CMakeFiles/libft.dir/libft/ft_tolower.c.o" \
-"CMakeFiles/libft.dir/libft/ft_toupper.c.o" \
-"CMakeFiles/libft.dir/src/parser/parser.c.o"
+"CMakeFiles/libft.dir/libft/ft_toupper.c.o"
 
 # External object files for target libft
 libft_EXTERNAL_OBJECTS =
@@ -778,10 +763,9 @@ liblibft.a: CMakeFiles/libft.dir/libft/ft_substr.c.o
 liblibft.a: CMakeFiles/libft.dir/libft/ft_strtrim.c.o
 liblibft.a: CMakeFiles/libft.dir/libft/ft_tolower.c.o
 liblibft.a: CMakeFiles/libft.dir/libft/ft_toupper.c.o
-liblibft.a: CMakeFiles/libft.dir/src/parser/parser.c.o
 liblibft.a: CMakeFiles/libft.dir/build.make
 liblibft.a: CMakeFiles/libft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking C static library liblibft.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Linking C static library liblibft.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/libft.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libft.dir/link.txt --verbose=$(VERBOSE)
 
