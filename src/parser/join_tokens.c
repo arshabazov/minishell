@@ -56,7 +56,7 @@ static void	join_tokens(t_list *token_list)
 			token->value = joined_str;
 		}
 		token_list->next = tmp->next;
-		clear_node(tmp->content);
+		clear_token(tmp->content);
 		free(tmp);
 	}
 }

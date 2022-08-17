@@ -31,6 +31,24 @@ typedef struct s_sl_list
 	struct s_sl_list	*next;
 }	t_sl_list;
 
+typedef enum e_result_type
+{
+	ERROR,
+	SUCCES
+}	t_result_type;
+
+typedef struct s_error
+{
+	int		error_no;
+	char	*msg;
+}	t_error;
+
+typedef struct	s_result
+{
+	t_result_type type;
+	void *result;
+}	t_result;
+
 typedef struct s_env_var
 {
 	char	*key;
@@ -62,5 +80,8 @@ t_list	*get_token_list(char *line);
 //t_cmd_list	*parse_input(t_list **token_list);
 t_cmd_list	*parse_input(char *line);
 void	clear_cmd_list(t_cmd_list **list);
+
+// Printing
+void print_cmd_list(t_cmd_list *cmd_list);
 
 #endif //MINISHELL_H

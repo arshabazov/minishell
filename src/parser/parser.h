@@ -60,11 +60,13 @@ void	join_token_list(t_list *token_list);
 void	evaluate_token_list(t_list *token_list);
 
 // Process redirections
+void		append_redirect(t_list **redirect_list, int type, char *value);
 t_redirect	*process_redirect(t_list *token_list);
+//t_redirect	*get_redirect(t_list *token_list);
 
 // Process commands
 void	get_cmd_list(t_cmd_list **cmd_list, t_list *token_list);
-void	add_cmd(t_cmd_list **cmd_list, t_list *redirect, char *cmd_options[]);
+void	append_cmd(t_cmd_list **cmd_list, t_list *redirect, char *cmd_options[]);
 
 // Clear command list
 void	*clear_array(char **arr);

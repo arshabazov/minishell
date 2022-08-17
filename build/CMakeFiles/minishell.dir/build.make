@@ -419,19 +419,19 @@ CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s"
 	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/cmd_processing.c -o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.s
 
-CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: CMakeFiles/minishell.dir/flags.make
-CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: ../src/parser/toke_key_getter.c
-CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o -MF CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o.d -o CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c
+CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o: CMakeFiles/minishell.dir/flags.make
+CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o: ../src/parser/token_key_getter.c
+CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o: CMakeFiles/minishell.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/cdell/workspace/circle_4/minishell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o -MF CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o.d -o CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/token_key_getter.c
 
-CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c > CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i
+CMakeFiles/minishell.dir/src/parser/token_key_getter.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/minishell.dir/src/parser/token_key_getter.c.i"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/cdell/workspace/circle_4/minishell/src/parser/token_key_getter.c > CMakeFiles/minishell.dir/src/parser/token_key_getter.c.i
 
-CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/toke_key_getter.c -o CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s
+CMakeFiles/minishell.dir/src/parser/token_key_getter.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/minishell.dir/src/parser/token_key_getter.c.s"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/cdell/workspace/circle_4/minishell/src/parser/token_key_getter.c -o CMakeFiles/minishell.dir/src/parser/token_key_getter.c.s
 
 CMakeFiles/minishell.dir/src/parser/clear_array.c.o: CMakeFiles/minishell.dir/flags.make
 CMakeFiles/minishell.dir/src/parser/clear_array.c.o: ../src/parser/clear_array.c
@@ -474,7 +474,7 @@ minishell_OBJECTS = \
 "CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o" \
 "CMakeFiles/minishell.dir/src/parser/print_functions.c.o" \
 "CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o" \
-"CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o" \
+"CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o" \
 "CMakeFiles/minishell.dir/src/parser/clear_array.c.o"
 
 # External object files for target minishell
@@ -505,7 +505,7 @@ minishell: CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o
 minishell: CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o
 minishell: CMakeFiles/minishell.dir/src/parser/print_functions.c.o
 minishell: CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o
-minishell: CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o
+minishell: CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o
 minishell: CMakeFiles/minishell.dir/src/parser/clear_array.c.o
 minishell: CMakeFiles/minishell.dir/build.make
 minishell: liblibft.a

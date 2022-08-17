@@ -1678,29 +1678,29 @@ src/parser/strip_spaces.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/strip_spaces.c.s
 .PHONY : src/parser/strip_spaces.c.s
 
-src/parser/toke_key_getter.o: src/parser/toke_key_getter.c.o
-.PHONY : src/parser/toke_key_getter.o
+src/parser/token_key_getter.o: src/parser/token_key_getter.c.o
+.PHONY : src/parser/token_key_getter.o
 
 # target to build an object file
-src/parser/toke_key_getter.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.o
-.PHONY : src/parser/toke_key_getter.c.o
+src/parser/token_key_getter.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o
+.PHONY : src/parser/token_key_getter.c.o
 
-src/parser/toke_key_getter.i: src/parser/toke_key_getter.c.i
-.PHONY : src/parser/toke_key_getter.i
+src/parser/token_key_getter.i: src/parser/token_key_getter.c.i
+.PHONY : src/parser/token_key_getter.i
 
 # target to preprocess a source file
-src/parser/toke_key_getter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.i
-.PHONY : src/parser/toke_key_getter.c.i
+src/parser/token_key_getter.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_key_getter.c.i
+.PHONY : src/parser/token_key_getter.c.i
 
-src/parser/toke_key_getter.s: src/parser/toke_key_getter.c.s
-.PHONY : src/parser/toke_key_getter.s
+src/parser/token_key_getter.s: src/parser/token_key_getter.c.s
+.PHONY : src/parser/token_key_getter.s
 
 # target to generate assembly for a file
-src/parser/toke_key_getter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/toke_key_getter.c.s
-.PHONY : src/parser/toke_key_getter.c.s
+src/parser/token_key_getter.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_key_getter.c.s
+.PHONY : src/parser/token_key_getter.c.s
 
 src/parser/token_list_eval.o: src/parser/token_list_eval.c.o
 .PHONY : src/parser/token_list_eval.o
@@ -2024,9 +2024,9 @@ help:
 	@echo "... src/parser/strip_spaces.o"
 	@echo "... src/parser/strip_spaces.i"
 	@echo "... src/parser/strip_spaces.s"
-	@echo "... src/parser/toke_key_getter.o"
-	@echo "... src/parser/toke_key_getter.i"
-	@echo "... src/parser/toke_key_getter.s"
+	@echo "... src/parser/token_key_getter.o"
+	@echo "... src/parser/token_key_getter.i"
+	@echo "... src/parser/token_key_getter.s"
 	@echo "... src/parser/token_list_eval.o"
 	@echo "... src/parser/token_list_eval.i"
 	@echo "... src/parser/token_list_eval.s"

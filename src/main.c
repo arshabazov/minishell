@@ -44,11 +44,11 @@ int	main(int argc, char *argv[], char *envp[])
 	env_var = get_env_var(envp);
 	while (1)
 	{
-		printf("maxishell$ ");
+//		printf("maxishell$ ");
 		line = readline("");
 		cmd_list = parse_input(line);
+//		print_cmd_list(cmd_list);
 //		clear_cmd_list(&cmd_list);
-		break;
 	}
 	
 	return (0);
