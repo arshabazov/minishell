@@ -7,6 +7,7 @@ LIBFT_A		=	${LIBFT_DIR}libft.a
 SRCS	=	src/main.c\
 			\
 			src/utils/ft_puterror.c\
+			src/utils/error_handler.c\
 			src/utils/list_ops.c\
 			src/utils/ft_substr_len.c\
 			src/lexer/token_list_handler.c\
@@ -35,7 +36,8 @@ SRCS	=	src/main.c\
 			src/parser/clear_array.c\
 			src/parser/token_key_getter.c\
 			\
-			src/parser/print_functions.c
+			src/parser/print_functions.c\
+			src/error.c
 
 HEADER	=	src/minishell.h
 

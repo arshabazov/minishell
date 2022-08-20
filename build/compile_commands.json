@@ -348,5 +348,10 @@
   "directory": "/Users/cdell/workspace/circle_4/minishell/build",
   "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/parser/clear_array.c.o -c /Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c",
   "file": "/Users/cdell/workspace/circle_4/minishell/src/parser/clear_array.c"
+},
+{
+  "directory": "/Users/cdell/workspace/circle_4/minishell/build",
+  "command": "/usr/bin/clang   -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11 -o CMakeFiles/minishell.dir/src/utils/error_handler.c.o -c /Users/cdell/workspace/circle_4/minishell/src/utils/error_handler.c",
+  "file": "/Users/cdell/workspace/circle_4/minishell/src/utils/error_handler.c"
 }
 ]

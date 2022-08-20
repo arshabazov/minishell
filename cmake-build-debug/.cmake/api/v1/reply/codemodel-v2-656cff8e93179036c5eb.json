@@ -48,7 +48,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "minishell::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-minishell-Debug-e67f14f0ef962d7ba32f.json",
+					"jsonFile" : "target-minishell-Debug-3e144f6692e6fcccd271.json",
 					"name" : "minishell",
 					"projectIndex" : 0
 				}
@@ -58,12 +58,12 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/cdell/workspace/circle_4/minishell/build",
+		"build" : "/Users/cdell/workspace/circle_4/minishell/cmake-build-debug",
 		"source" : "/Users/cdell/workspace/circle_4/minishell"
 	},
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 4
+		"minor" : 3
 	}
 }

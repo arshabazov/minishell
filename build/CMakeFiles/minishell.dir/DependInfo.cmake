@@ -32,6 +32,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/cdell/workspace/circle_4/minishell/src/parser/token_key_getter.c" "CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o" "gcc" "CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o.d"
   "/Users/cdell/workspace/circle_4/minishell/src/parser/token_list_eval.c" "CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o" "gcc" "CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o.d"
   "/Users/cdell/workspace/circle_4/minishell/src/parser/token_list_expansion.c" "CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o" "gcc" "CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o.d"
+  "/Users/cdell/workspace/circle_4/minishell/src/utils/error_handler.c" "CMakeFiles/minishell.dir/src/utils/error_handler.c.o" "gcc" "CMakeFiles/minishell.dir/src/utils/error_handler.c.o.d"
   "/Users/cdell/workspace/circle_4/minishell/src/utils/ft_puterror.c" "CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o" "gcc" "CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o.d"
   "/Users/cdell/workspace/circle_4/minishell/src/utils/ft_substr_len.c" "CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o" "gcc" "CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o.d"
   "/Users/cdell/workspace/circle_4/minishell/src/utils/list_ops.c" "CMakeFiles/minishell.dir/src/utils/list_ops.c.o" "gcc" "CMakeFiles/minishell.dir/src/utils/list_ops.c.o.d"

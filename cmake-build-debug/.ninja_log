@@ -1,5 +1,5 @@
 # ninja log v5
-1	100	1660679994000000000	build.ninja	b095c072e9a4d066
+1	100	1660941092000000000	build.ninja	b095c072e9a4d066
 2	59	1660590084000000000	CMakeFiles/minishell.dir/src/parser/parser.c.o	fcefaab2dadb5420
 311	372	1659743861000000000	CMakeFiles/libft.dir/libft/ft_putnbr_fd.c.o	72e04d111fd927ad
 2	124	1659744195000000000	CMakeFiles/minishell.dir/src/parser/db_quote_expansion.c.o	507fe79a8b25c1a4

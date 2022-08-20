@@ -47,6 +47,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o.d"
   "CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o"
   "CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o.d"
+  "CMakeFiles/minishell.dir/src/utils/error_handler.c.o"
+  "CMakeFiles/minishell.dir/src/utils/error_handler.c.o.d"
   "CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o"
   "CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o.d"
   "CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o"

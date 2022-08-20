@@ -14,7 +14,7 @@
 
 size_t	ft_substr_len(const char *start, const char *end)
 {
-	size_t length;
+	size_t	length;
 
 	length = 0;
 	if (!end)

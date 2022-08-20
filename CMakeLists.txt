@@ -62,7 +62,7 @@ add_executable(minishell
         src/parser/parser.h
         src/parser/env_var_expansion.c
         src/utils/ft_substr_len.c
-        src/parser/db_quotes_expansion.c src/parser/join_tokens.c src/lexer/token_value_utils.c src/parser/exit_status.c src/parser/redirect_processing.c src/parser/cmd_list_handler.c src/parser/token_list_expansion.c src/parser/token_list_eval.c src/parser/strip_spaces.c src/parser/is_redirect.c src/lexer/token_list_handler.c src/env_var/env_var_list_handler.c src/parser/str_chunk_handler.c src/parser/print_functions.c src/parser/cmd_processing.c src/parser/token_key_getter.c src/parser/clear_array.c)
+        src/parser/db_quotes_expansion.c src/parser/join_tokens.c src/lexer/token_value_utils.c src/parser/exit_status.c src/parser/redirect_processing.c src/parser/cmd_list_handler.c src/parser/token_list_expansion.c src/parser/token_list_eval.c src/parser/strip_spaces.c src/parser/is_redirect.c src/lexer/token_list_handler.c src/env_var/env_var_list_handler.c src/parser/str_chunk_handler.c src/parser/print_functions.c src/parser/cmd_processing.c src/parser/token_key_getter.c src/parser/clear_array.c src/utils/error_handler.c src/error.c)
 
 target_link_libraries(minishell libft)
 target_link_libraries(minishell readline)

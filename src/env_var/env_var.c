@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   env_var.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: Abdu-Rashid <Abdu-Rashid@student.42.fr>    +#+  +:+       +#+        */
+/*   By: cdell <cdell@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/07 18:59:47 by cdell             #+#    #+#             */
-/*   Updated: 2022/07/30 22:51:19 by Abdu-Rashid      ###   ########.fr       */
+/*   Created: 2022/08/19 17:41:10 by cdell             #+#    #+#             */
+/*   Updated: 2022/08/19 17:41:18 by cdell            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,11 @@ size_t	ft_strlen_plus(const char *str, char c)
 
 t_list	*get_env_var(char *env[])
 {
-	int i;
-	size_t size[2];
+	int		i;
+	size_t	size[2];
 	t_list	*env_var_list;
-	char *key;
-	char *value;
+	char	*key;
+	char	*value;
 
 	i = 0;
 	env_var_list = NULL;
@@ -39,7 +39,8 @@ t_list	*get_env_var(char *env[])
 		key = malloc(sizeof(char) * size[0] + 1);
 		value = malloc(sizeof(char) * size[1] + 1);
 		if (!key || !value)
-			ft_puterror("Failed to allocate memory in *get_env_var(char *env[]) function");
+			ft_puterror("Failed to allocate memory\
+			 in *get_env_var(char *env[]) function");
 		ft_strlcpy(key, env[i], size[0] + 1);
 		ft_strlcpy(value, env[i] + size[0] + 1, size[1] + 1);
 		append_env_var(&env_var_list, key, value);

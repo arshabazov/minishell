@@ -1750,6 +1750,30 @@ src/parser/token_list_expansion.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.s
 .PHONY : src/parser/token_list_expansion.c.s
 
+src/utils/error_handler.o: src/utils/error_handler.c.o
+.PHONY : src/utils/error_handler.o
+
+# target to build an object file
+src/utils/error_handler.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/error_handler.c.o
+.PHONY : src/utils/error_handler.c.o
+
+src/utils/error_handler.i: src/utils/error_handler.c.i
+.PHONY : src/utils/error_handler.i
+
+# target to preprocess a source file
+src/utils/error_handler.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/error_handler.c.i
+.PHONY : src/utils/error_handler.c.i
+
+src/utils/error_handler.s: src/utils/error_handler.c.s
+.PHONY : src/utils/error_handler.s
+
+# target to generate assembly for a file
+src/utils/error_handler.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minishell.dir/build.make CMakeFiles/minishell.dir/src/utils/error_handler.c.s
+.PHONY : src/utils/error_handler.c.s
+
 src/utils/ft_puterror.o: src/utils/ft_puterror.c.o
 .PHONY : src/utils/ft_puterror.o
 
@@ -2033,6 +2057,9 @@ help:
 	@echo "... src/parser/token_list_expansion.o"
 	@echo "... src/parser/token_list_expansion.i"
 	@echo "... src/parser/token_list_expansion.s"
+	@echo "... src/utils/error_handler.o"
+	@echo "... src/utils/error_handler.i"
+	@echo "... src/utils/error_handler.s"
 	@echo "... src/utils/ft_puterror.o"
 	@echo "... src/utils/ft_puterror.i"
 	@echo "... src/utils/ft_puterror.s"

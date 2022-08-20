@@ -211,6 +211,18 @@ build CMakeFiles/minishell.dir/src/parser/clear_array.c.o: C_COMPILER__minishell
   OBJECT_DIR = CMakeFiles/minishell.dir
   OBJECT_FILE_DIR = CMakeFiles/minishell.dir/src/parser
 
+build CMakeFiles/minishell.dir/src/utils/error_handler.c.o: C_COMPILER__minishell_Debug /Users/cdell/workspace/circle_4/minishell/src/utils/error_handler.c || cmake_object_order_depends_target_minishell
+  DEP_FILE = CMakeFiles/minishell.dir/src/utils/error_handler.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/minishell.dir
+  OBJECT_FILE_DIR = CMakeFiles/minishell.dir/src/utils
+
+build CMakeFiles/minishell.dir/src/error.c.o: C_COMPILER__minishell_Debug /Users/cdell/workspace/circle_4/minishell/src/error.c || cmake_object_order_depends_target_minishell
+  DEP_FILE = CMakeFiles/minishell.dir/src/error.c.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -std=gnu11
+  OBJECT_DIR = CMakeFiles/minishell.dir
+  OBJECT_FILE_DIR = CMakeFiles/minishell.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target minishell
@@ -219,7 +231,7 @@ build CMakeFiles/minishell.dir/src/parser/clear_array.c.o: C_COMPILER__minishell
 #############################################
 # Link the executable minishell
 
-build minishell: C_EXECUTABLE_LINKER__minishell_Debug CMakeFiles/minishell.dir/src/main.c.o CMakeFiles/minishell.dir/src/lexer/lexer.c.o CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o CMakeFiles/minishell.dir/src/lexer/print_list.c.o CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o CMakeFiles/minishell.dir/src/env_var/env_var.c.o CMakeFiles/minishell.dir/src/utils/list_ops.c.o CMakeFiles/minishell.dir/src/parser/parser.c.o CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o CMakeFiles/minishell.dir/src/parser/join_tokens.c.o CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o CMakeFiles/minishell.dir/src/parser/exit_status.c.o CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o CMakeFiles/minishell.dir/src/parser/is_redirect.c.o CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o CMakeFiles/minishell.dir/src/parser/print_functions.c.o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o CMakeFiles/minishell.dir/src/parser/clear_array.c.o | liblibft.a || liblibft.a
+build minishell: C_EXECUTABLE_LINKER__minishell_Debug CMakeFiles/minishell.dir/src/main.c.o CMakeFiles/minishell.dir/src/lexer/lexer.c.o CMakeFiles/minishell.dir/src/utils/ft_puterror.c.o CMakeFiles/minishell.dir/src/lexer/print_list.c.o CMakeFiles/minishell.dir/src/lexer/token_utlis.c.o CMakeFiles/minishell.dir/src/env_var/env_var.c.o CMakeFiles/minishell.dir/src/utils/list_ops.c.o CMakeFiles/minishell.dir/src/parser/parser.c.o CMakeFiles/minishell.dir/src/parser/env_var_expansion.c.o CMakeFiles/minishell.dir/src/utils/ft_substr_len.c.o CMakeFiles/minishell.dir/src/parser/db_quotes_expansion.c.o CMakeFiles/minishell.dir/src/parser/join_tokens.c.o CMakeFiles/minishell.dir/src/lexer/token_value_utils.c.o CMakeFiles/minishell.dir/src/parser/exit_status.c.o CMakeFiles/minishell.dir/src/parser/redirect_processing.c.o CMakeFiles/minishell.dir/src/parser/cmd_list_handler.c.o CMakeFiles/minishell.dir/src/parser/token_list_expansion.c.o CMakeFiles/minishell.dir/src/parser/token_list_eval.c.o CMakeFiles/minishell.dir/src/parser/strip_spaces.c.o CMakeFiles/minishell.dir/src/parser/is_redirect.c.o CMakeFiles/minishell.dir/src/lexer/token_list_handler.c.o CMakeFiles/minishell.dir/src/env_var/env_var_list_handler.c.o CMakeFiles/minishell.dir/src/parser/str_chunk_handler.c.o CMakeFiles/minishell.dir/src/parser/print_functions.c.o CMakeFiles/minishell.dir/src/parser/cmd_processing.c.o CMakeFiles/minishell.dir/src/parser/token_key_getter.c.o CMakeFiles/minishell.dir/src/parser/clear_array.c.o CMakeFiles/minishell.dir/src/utils/error_handler.c.o CMakeFiles/minishell.dir/src/error.c.o | liblibft.a || liblibft.a
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6
   LINK_LIBRARIES = liblibft.a  -lreadline
   OBJECT_DIR = CMakeFiles/minishell.dir
