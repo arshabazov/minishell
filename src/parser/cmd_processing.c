@@ -94,4 +94,5 @@ void	get_cmd_list(t_cmd_list **cmd_list, t_list *token_list)
 		if (token_list)
 			token_list = token_list->next;
 	}
+	printf("reached this part\n");
 }

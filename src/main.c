@@ -49,7 +49,7 @@ int	main(int argc, char *argv[], char *envp[])
 		}
 		clear_cmd_list(&cmd_list);
 		free(line);
-//		break;
+		break;
 	}
 	return (0);
 }

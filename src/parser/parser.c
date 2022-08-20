@@ -34,8 +34,9 @@ t_cmd_list	*parse_input(char *line)
 	if (ft_strlen(line) == 0)
 		return (NULL);
 	token_list = get_token_list(line);
-	if (!token_list /*|| get_token_node_key(token_list) == WHITE_SPACE*/)
+	if (!token_list) {
 		return (NULL);
+	}
 	if (!process_token_list(token_list))
 	{
 		ft_lstclear(&token_list, clear_token);

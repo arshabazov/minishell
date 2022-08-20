@@ -32,4 +32,3 @@ int	print_error(void)
 		return (1);
 	}
 }
-

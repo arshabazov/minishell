@@ -22,7 +22,7 @@
 # include "../libft/libft.h"
 # include "lexer/lexer.h"
 
-# define SYTAX_ERR "syntax error near unexpected token"
+# define SYTAX_ERR "bash: syntax error near unexpected token"
 # define INVALID_ARG_FOR_UNSET "not a valid identifier"
 # define NOT_SET "not set"
 # define ERR_CMD_NOT_FOUND "command not found"
@@ -30,7 +30,7 @@
 
 typedef struct s_cmd_list	t_cmd_list;
 t_list						*g_env_var;
-t_error						*err_str;
+//t_error						*err_str;
 
 //typedef enum s_error_code
 //{
